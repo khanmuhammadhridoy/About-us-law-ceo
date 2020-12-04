@@ -86,11 +86,13 @@ cite {
     font-style: normal;
 }
 
+/* quote mark hide */
 blockquote q::before,
 blockquote q::after {
     content: none;
 }
 
+/* line before name */
 cite::before {
     content: '';
     background: #fff;
@@ -101,10 +103,28 @@ cite::before {
     margin-right: 4px;
 }
 
+/* small text */
 small {
     margin-left: 8px;
     color: #666c84;
     font-size: 14px;
     font-weight: 300;
     font-style: italic;
+}
+/* button */
+
+a.btn {
+    color: #fff;
+    border: 2px solid #cca876;
+    background: transparent;
+    padding: 0px 40px;
+    line-height: 2.5em;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 0px;
+}
+
+a.btn:hover {
+    color: #fff;
+    background: #cca876;
 }
